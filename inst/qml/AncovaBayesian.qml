@@ -43,6 +43,8 @@ Form
 	ANOVA.PostHocTests { source: "fixedFactors" }
 
 	ANOVA.DescriptivesPlots { source: ["fixedFactors", "covariates"] }
+	
+	ANOVA.BarPlots { source: ["fixedFactors", "covariates"] }
 
 	ANOVA.RainCloudPlots { availableVariableSource: ["fixedFactors", "covariates"] }
 

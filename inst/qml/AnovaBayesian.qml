@@ -42,6 +42,8 @@ Form
 	ANOVA.PostHocTests { source: "fixedFactors" }
 
 	ANOVA.DescriptivesPlots { source: "fixedFactors" }
+	
+	ANOVA.BarPlots { source: ["fixedFactors", "randomFactors"] }
 
 	ANOVA.RainCloudPlots { availableVariableSource: ["fixedFactors", "randomFactors"] }
 
